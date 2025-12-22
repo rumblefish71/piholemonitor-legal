@@ -43,15 +43,18 @@ To improve app stability, you can choose to send an error report in the event of
 
 ### 3.4 Advanced Debugging (Session Recording)
 You can manually start a detailed error recording ("Session Recording").
-* **Type:** Manual (Opt-In). Recording only starts via your interaction.
-* **Processing:** The file (`debug_reports`) is generated locally. There is **no automatic upload**. You decide whether to share the file.
+* **Type:** Manual (Opt-In). Recording only starts via your specific interaction.
+* **Processing:** The file (`debug_reports`) is generated **exclusively locally** on your device. **There is no automatic upload.** You decide entirely on your own whether to share this file.
+* **Retention:**
+    * The **raw data** of the recording is **deleted immediately** after the report is generated.
+    * The generated report is **temporarily buffered for export** and is **automatically deleted from the device after max. 1 hour**.
 * **Report Content:**
     * App version, build type, Git hash.
     * Network information (WiFi/Cellular/VPN status).
-    * **Masked Data:** Configured Pi-hole domain, IP addresses, MAC addresses, and Session IDs (SIDs) are **fully or partially masked** in the report to protect your privacy.
+    * **Masked Data:** Configured Pi-hole domain, **obfuscated IP addresses** (e.g., `192.168.xxx.xxx`), MAC addresses, and Session IDs (SIDs).
     * SSL certificate status.
     * Log of app activities during the recording session.
-* **Note:** Despite masking, this report may contain technical metadata. Only share it with trusted persons for troubleshooting.
+* **Note:** Despite masking, this report may contain **technical metadata**. **Only share it with trusted persons.** You bear the sole responsibility for sharing this file with third parties.
 
 ## 4. Storage of Sensitive Data
 API tokens and passwords are stored in the **Android Keystore System** and in `SharedPreferences` (AES-256 GCM encrypted). This data does not leave your device, except to authenticate against your own server.
