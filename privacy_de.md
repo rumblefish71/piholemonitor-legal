@@ -47,10 +47,10 @@ Sie können manuell eine detaillierte Fehleraufzeichnung starten ("Session Recor
 * **Inhalt des Berichts:**
     * App-Version, Build-Typ, Git-Hash.
     * Netzwerkinformationen (WiFi/Mobilfunk/VPN-Status).
-    * Konfigurierte Pi-hole-Domain (teilweise maskiert) und Port.
+    * **Maskierte Daten:** Konfigurierte Pi-hole-Domain, IP-Adressen, MAC-Adressen und Session-IDs (SIDs) werden im Bericht **vollständig oder teilweise maskiert**, um Ihre Privatsphäre zu schützen.
     * SSL-Zertifikatsstatus.
     * Protokoll der App-Aktivitäten während der Aufzeichnung.
-* **Hinweis:** Dieser Bericht kann personen- oder netzwerkbezogene Daten enthalten. Teilen Sie ihn nur mit vertrauenswürdigen Personen zur Fehlerbehebung.
+* **Hinweis:** Trotz Maskierung kann dieser Bericht technische Metadaten enthalten. Teilen Sie ihn nur mit vertrauenswürdigen Personen zur Fehlerbehebung.
 
 ## 4. Speicherung sensibler Daten
 API-Tokens und Passwörter werden im **Android Keystore System** und in den `SharedPreferences` (AES-256 GCM verschlüsselt) gespeichert. Diese Daten verlassen Ihr Gerät nicht, außer zur Authentifizierung gegenüber Ihrem eigenen Server.
