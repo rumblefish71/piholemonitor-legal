@@ -48,10 +48,10 @@ You can manually start a detailed error recording ("Session Recording").
 * **Report Content:**
     * App version, build type, Git hash.
     * Network information (WiFi/Cellular/VPN status).
-    * Configured Pi-hole domain (partially masked) and port.
+    * **Masked Data:** Configured Pi-hole domain, IP addresses, MAC addresses, and Session IDs (SIDs) are **fully or partially masked** in the report to protect your privacy.
     * SSL certificate status.
     * Log of app activities during the recording session.
-* **Note:** This report may contain personal or network-related data. Only share it with trusted persons for troubleshooting.
+* **Note:** Despite masking, this report may contain technical metadata. Only share it with trusted persons for troubleshooting.
 
 ## 4. Storage of Sensitive Data
 API tokens and passwords are stored in the **Android Keystore System** and in `SharedPreferences` (AES-256 GCM encrypted). This data does not leave your device, except to authenticate against your own server.
