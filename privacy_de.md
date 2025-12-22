@@ -41,16 +41,19 @@ Um die Stabilität der App zu verbessern, können Sie im Falle eines Absturzes e
 * **Rechtsgrundlage:** Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Sie können diese jederzeit in den App-Einstellungen widerrufen.
 
 ### 3.4 Erweiterte Fehleranalyse (Debug Recording)
-Sie können manuell eine detaillierte Fehleraufzeichnung starten ("Session Recording").
+Sie können manuell eine detaillierte Fehleraufzeichnung starten („Session Recording“).
 * **Art der Funktion:** Manuell (Opt-In). Die Aufzeichnung startet nur durch Ihre Interaktion.
-* **Verarbeitung:** Die Datei (`debug_reports`) wird lokal generiert. Es erfolgt **kein automatischer Upload**. Sie entscheiden selbst, ob Sie die Datei teilen.
+* **Verarbeitung:** Die Datei (`debug_reports`) wird **ausschließlich lokal** auf Ihrem Gerät generiert. **Es erfolgt kein automatischer Upload.** Sie entscheiden selbst, ob Sie die Datei teilen.
+* **Speicherdauer:**
+    * Die **Rohdaten** der Aufzeichnung werden **sofort nach Erstellung des Berichts gelöscht**.
+    * Der generierte Bericht wird **temporär für den Export zwischengespeichert** und **automatisch nach max. 1 Stunde** vom Gerät gelöscht.
 * **Inhalt des Berichts:**
     * App-Version, Build-Typ, Git-Hash.
     * Netzwerkinformationen (WiFi/Mobilfunk/VPN-Status).
-    * **Maskierte Daten:** Konfigurierte Pi-hole-Domain, IP-Adressen, MAC-Adressen und Session-IDs (SIDs) werden im Bericht **vollständig oder teilweise maskiert**, um Ihre Privatsphäre zu schützen.
+    * **Maskierte Daten:** Konfigurierte Pi-hole-Domain, **unkenntlich gemachte IP-Adressen** (z. B. `192.168.xxx.xxx`), MAC-Adressen und Session-IDs (SIDs).
     * SSL-Zertifikatsstatus.
     * Protokoll der App-Aktivitäten während der Aufzeichnung.
-* **Hinweis:** Trotz Maskierung kann dieser Bericht technische Metadaten enthalten. Teilen Sie ihn nur mit vertrauenswürdigen Personen zur Fehlerbehebung.
+* **Hinweis:** Trotz Maskierung kann dieser Bericht **technische Metadaten** enthalten. **Teilen Sie ihn nur mit vertrauenswürdigen Personen.** Sie tragen die Verantwortung für die Weitergabe an Dritte.
 
 ## 4. Speicherung sensibler Daten
 API-Tokens und Passwörter werden im **Android Keystore System** und in den `SharedPreferences` (AES-256 GCM verschlüsselt) gespeichert. Diese Daten verlassen Ihr Gerät nicht, außer zur Authentifizierung gegenüber Ihrem eigenen Server.
