@@ -24,9 +24,10 @@ Die App benötigt Zugriff auf das Netzwerk, um sich mit Ihrem konfigurierten Pi-
 * **Verarbeitung:** Die Daten werden ausschließlich lokal verarbeitet und nicht an uns oder Dritte gesendet.
 * **Rechtsgrundlage:** Berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO) an der Funktionalität der App.
 
-### 3.2 Biometrische Authentifizierung (USE_BIOMETRIC)
-Sie können die App optional mittels Fingerabdruck oder Gesichtsscan absichern.
-* **Verarbeitung:** Die Prüfung erfolgt ausschließlich durch das Android-Betriebssystem. Die App erhält lediglich die Information "Erfolg" oder "Fehler". Biometrische Daten verlassen nie den sicheren Speicher Ihres Geräts (Art. 9 DSGVO).
+### 3.2 App-Sperre & Biometrie (USE_BIOMETRIC)
+Sie können den Zugriff auf die App optional absichern. Hierfür werden die auf Ihrem Gerät eingerichteten Sicherheitsmethoden verwendet (z. B. Fingerabdruck, sichere Gesichtserkennung oder PIN/Muster).
+* **Verarbeitung:** Die Prüfung erfolgt ausschließlich lokal durch das Android-Betriebssystem (Android Biometric API).
+* **Datenschutz:** Die App hat zu keinem Zeitpunkt Zugriff auf Ihre biometrischen Rohdaten (wie Fingerabdruck-Bilder) oder Ihre PIN. Wir erhalten vom System lediglich die Bestätigung ("Erfolg" oder "Fehler"). Die biometrischen Daten verlassen nie den sicheren Hardware-Speicher Ihres Geräts (Art. 9 DSGVO).
 
 ### 3.3 Absturzberichte (Crash Reporting)
 Um die Stabilität der App zu verbessern, können Sie im Falle eines Absturzes einen Fehlerbericht senden.
