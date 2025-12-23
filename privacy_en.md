@@ -25,9 +25,10 @@ The app requires network access to connect to your configured Pi-hole server.
 * **Processing:** Data is processed exclusively locally and is not sent to us or third parties.
 * **Legal Basis:** Legitimate interest (Art. 6 para. 1 lit. f GDPR) in the functionality of the app.
 
-### 3.2 Biometric Authentication (USE_BIOMETRIC)
-You can optionally secure the app using fingerprint or face unlock.
-* **Processing:** Verification is handled solely by the Android operating system. The app only receives a "Success" or "Error" signal. Biometric data never leaves your device's secure hardware (Art. 9 GDPR).
+### 3.2 App Lock & Biometrics (USE_BIOMETRIC)
+You can optionally secure access to the app. This uses the security methods configured on your device (e.g., fingerprint, secure face unlock, or PIN/pattern).
+* **Processing:** Verification is performed exclusively locally by the Android operating system (Android Biometric API).
+* **Data Privacy:** The app never has access to your raw biometric data (such as fingerprint images) or your PIN. We only receive a confirmation ("Success" or "Error") from the system. Biometric data never leaves your device's secure hardware storage (Art. 9 GDPR).
 
 ### 3.3 Crash Reporting
 To improve app stability, you can choose to send an error report in the event of a crash.
