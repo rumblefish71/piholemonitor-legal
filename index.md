@@ -11,11 +11,13 @@ Please select your language / Bitte wählen Sie Ihre Sprache:
 * **[🇬🇧 English: Privacy Policy](privacy_en.md)**
 * **[🇩🇪 Deutsch: Datenschutzerklärung](privacy_de.md)**
 
-> _We value your privacy. We do not track your browsing history. Crash reports are optional._
+> _We value your privacy. We do not track your browsing habits. Crash reports are optional._
+>
+> _Wir schätzen Ihre Privatsphäre. Wir verfolgen Ihr Surfverhalten nicht. Absturzberichte sind optional._
 
 ---
 
 ### App Information
-* **Developer:** Christian Jurtz (de.mountainfields.piholemonitor)
+* **Developer:** Christian Jurtz (`de.mountainfields.piholemonitor`)
 * **Contact:** support@mountainfields.de
 * **Project Status:** Active
