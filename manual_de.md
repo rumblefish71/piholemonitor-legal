@@ -16,7 +16,12 @@ Um eine Verbindung herzustellen, müssen Sie Ihre Pi-hole Instanz im Bereich "Ad
 * **Passwort**: Ihr Pi-hole Web-Passwort.
 * **Connection Type**: Wählen Sie zwischen **HTTPS** oder **HTTP**.
 
-![Screenshot Server Setup](screenshots/new_server.jpg)
+### Verbindung prüfen & Speichern
+
+* **Check Connection**: Initiiert einen Testaufruf über `authenticateWithSid`, um die Erreichbarkeit und das Passwort zu validieren.
+* **Speichern (Disketten-Icon)**: Übernimmt die Konfiguration in den dauerhaften Speicher. Bei der ersten Konfiguration wird dieser Server automatisch als aktiver Server gesetzt.
+
+![Screenshot Server Setup](docs/screenshots/grafik.jpg)
 
 ---
 
