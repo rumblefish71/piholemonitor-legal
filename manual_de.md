@@ -16,7 +16,7 @@ Um eine Verbindung herzustellen, müssen Sie Ihre Pi-hole Instanz im Bereich "Ad
 * **Passwort**: Ihr Pi-hole Web-Passwort.
 * **Connection Type**: Wählen Sie zwischen **HTTPS** oder **HTTP**.
 
-![Screenshot Server Setup](docs/screenshots/new_server.jpg)
+![Screenshot Server Setup](screenshots/new_server.jpg)
 
 ---
 
