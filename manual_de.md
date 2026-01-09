@@ -40,7 +40,7 @@ Um die App nutzen zu können, müssen Sie Ihre Pi-hole Instanz (unterstützt die
 * **Check Connection**: Führt einen Testaufruf aus, um die Erreichbarkeit und die Korrektheit des Passworts via `authenticateWithSid` zu validieren.
 * **Speichern (Disketten-Icon)**: Übernimmt die Daten in den verschlüsselten Speicher. Bei der ersten Einrichtung wird dieser Server automatisch als aktiver Server markiert.
 
-![Screenshot Server Setup](docs/screenshots/grafik.jpg)
+![Screenshot Server Setup](screenshots/new_server.jpg)
 
 ---
 
