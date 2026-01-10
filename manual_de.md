@@ -76,6 +76,7 @@ Detaillierte Einsicht in den DNS-Verkehr Ihres Netzwerks.
 
 * **Host-System**: Anzeige von Host-Informationen, CPU-Last, RAM-Verbrauch und pihole-FTL Prozess.
 * **Pi-hole**: Aktivierung oder Deaktivierung des DNS-Filters, Auslastung des DNS-Caches, Ausführung von Pi-hole Aktionen, Benachrichtigungen von Pi-hole
+* **Netzwerk**: Detailierte Übersicht der Gateways, Schnittstellen und Routen.
 * **DHCP**: Verwaltung von aktiven DHCP-Leases.
 
 ### Verfügbare Aktionen:
