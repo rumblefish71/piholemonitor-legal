@@ -37,7 +37,7 @@ Um die App nutzen zu können, müssen Sie Ihre Pi-hole Instanz (unterstützt API
 * **Connection Type**: Wahl zwischen **HTTPS** (empfohlen) oder **HTTP**.
 
 ### Verbindung prüfen & Speichern
-* **Check Connection**: Führt einen Testaufruf aus, um die Erreichbarkeit und die Korrektheit des Passworts via `authenticateWithSid` zu validieren.
+* **Check Connection**: Führt einen Testaufruf aus, um die Erreichbarkeit und die Korrektheit des Passworts zu validieren.
 * **Speichern (Disketten-Icon)**: Übernimmt die Daten in den verschlüsselten Speicher. Bei der ersten Einrichtung wird dieser Server automatisch als aktiver Server markiert.
 
 ![Screenshot Server Setup](screenshots/new_server.jpg)
