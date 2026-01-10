@@ -82,7 +82,7 @@ Detaillierte Einsicht in den DNS-Verkehr Ihres Netzwerks.
 ### Verfügbare Aktionen:
 * **FTL Restart**: Startet den DNS-Dienst Ihrer Instanz neu.
 * **Gravity Update**: Löst eine Aktualisierung der Blocklisten aus.
-* **Flush Logs/ARP**: Bereinigt Protokolle oder leert die Netzwerktabelle.
+* **Flush Logs/ARP**: Bereinigt DNS Abfrage-Logs oder leert die Netzwerktabelle.
 
 > [!CAUTION]
 > **Warnhinweis**: Das Ausführen von Pi-hole Aktionen wie der Neustart von FTL oder ein Gravity-Update führt zu einer kurzzeitigen Unterbrechung der DNS-Auflösung für Ihr gesamtes Netzwerk.
