@@ -1,6 +1,6 @@
 # 📱 PiHoleMonitor – Benutzerhandbuch
 
-Dieses Handbuch unterstützt Sie bei der Einrichtung und Nutzung der **PiHoleMonitor** App. PiHoleMonitor ist ein inoffizieller, moderner Client für **Pi-hole®**. Die App ermöglicht Ihnen die komfortable Überwachung und Verwaltung Ihrer Werbefilter-Instanzen über eine native Oberfläche auf Basis von Jetpack Compose.
+Dieses Handbuch unterstützt Sie bei der Einrichtung und Nutzung der **PiHoleMonitor** App. PiHoleMonitor ist ein inoffizieller Client für **Pi-hole®**. Die App ermöglicht Ihnen die komfortable Überwachung und Verwaltung Ihrer Werbefilter-Instanzen über eine native Oberfläche auf Basis von Jetpack Compose.
 
 ---
 
@@ -21,12 +21,12 @@ Da die App Zugriff auf Ihre Netzwerk-Infrastruktur hat, steht der Schutz Ihrer D
 * **Verschlüsselung**: Sensible Daten wie Passwörter und Session-IDs werden niemals im Klartext gespeichert. Die App nutzt eine **AES-GCM Verschlüsselung** innerhalb des hardwaregestützten **Android KeyStores**.
 * **Authentifizierung**: Die Kommunikation erfolgt über das offizielle API-Verfahren mittels sicherer Session-IDs (`sid`) und CSRF-Tokens.
 * **Lokalität**: PiHoleMonitor ist "Offline-First". Es findet **keine Datenübertragung** an externe Cloud-Server des Entwicklers statt. Alle Verbindungen erfolgen direkt zwischen Ihrem Smartphone und Ihrer Pi-hole Instanz.
-* **Biometrie**: Sie können den Zugriff auf die App optional durch Ihren Fingerabdruck oder Gesichtserkennung schützen.
+* **Biometrie**: Sie können den Zugriff auf die App optional durch Ihren Fingerabdruck, Gesichtserkennung oder PIN schützen.
 
 ---
 
 ## ⚙️ 2. Server-Konfiguration
-Um die App nutzen zu können, müssen Sie Ihre Pi-hole Instanz (unterstützt die moderne API v6+) hinterlegen.
+Um die App nutzen zu können, müssen Sie Ihre Pi-hole Instanz (unterstützt API v6+) hinterlegen.
 
 * **Server Name**: Ein frei wählbarer Name zur Identifikation in der App.
 * **Domain / IP**: Die Adresse Ihrer Instanz (z. B. `192.168.178.5`).
@@ -74,7 +74,8 @@ Detaillierte Einsicht in den DNS-Verkehr Ihres Netzwerks.
 ## 💻 6. System
 Überwachung der Hardware und Netzwerkumgebung.
 
-* **Host-System**: Anzeige von CPU-Last, RAM-Verbrauch und Systemtemperatur.
+* **Host-System**: Anzeige von Host-Informationen, CPU-Last, RAM-Verbrauch und pihole-FTL Prozess.
+* **Pi-hole**: Aktivierung oder Deaktivierung des DNS-Filters, Auslastung des DNS-Caches, Ausführung von Pi-hole Aktionen, Benachrichtigungen von Pi-hole
 * **DHCP**: Verwaltung von aktiven DHCP-Leases.
 
 ### Verfügbare Aktionen:
@@ -83,7 +84,7 @@ Detaillierte Einsicht in den DNS-Verkehr Ihres Netzwerks.
 * **Flush Logs/ARP**: Bereinigt Protokolle oder leert die Netzwerktabelle.
 
 > [!CAUTION]
-> **Warnhinweis**: Das Ausführen von System-Aktionen wie der Neustart von FTL oder ein Gravity-Update führt zu einer kurzzeitigen Unterbrechung der DNS-Auflösung für Ihr gesamtes Netzwerk.
+> **Warnhinweis**: Das Ausführen von Pi-hole Aktionen wie der Neustart von FTL oder ein Gravity-Update führt zu einer kurzzeitigen Unterbrechung der DNS-Auflösung für Ihr gesamtes Netzwerk.
 > 
 > **Flush Logs & ARP**: Diese Aktion löscht die kompletten Abfrage-Logs unwiderruflich und leert die Liste bekannter Netzwerkgeräte (Netzwerktabelle).
 
@@ -96,4 +97,5 @@ Personalisieren Sie den PiHoleMonitor.
 * **Benachrichtigungen**: Konfiguration von System-Meldungen.
 * **Widgets**: Verwalten Sie das Erscheinungsbild Ihrer Homescreen-Widgets.
 * **Sicherheit**: Konfiguration des biometrischen Logins.
-* **Wartung**: Zugriff auf Absturzberichte und den Debug-Log-Rekorder.
+* **Wartung**: Aktivierung oder Deaktivierung von Absturzberichten
+* **Debug-Log-Rekorder**: Nutzung des Log-Rekorders bei Problemen 
