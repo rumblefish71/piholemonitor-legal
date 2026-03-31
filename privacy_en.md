@@ -10,7 +10,7 @@ Christian Jurtz
 Haubachstr.48
 16540 Hohen Neuendorf
 Germany
-support@mountainfields.de
+mountainfields@jurtz.de
 
 ## 2. Basic Principle
 The app is designed to monitor your **own** Pi-hole® instance.
