@@ -9,7 +9,7 @@ Verantwortlicher:
 Christian Jurtz
 Haubachstr. 48
 16540 Hohen Neuendorf
-support@mountainfields.de
+mountainfields@jurtz.de
 
 ## 2. Grundprinzip
 Die App dient der Überwachung Ihrer **eigenen** Pi-hole®-Instanz.
