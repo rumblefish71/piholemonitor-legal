@@ -36,12 +36,11 @@ To use the app, you must register your Pi-hole instance (API v6+ supported).
 * **Password**: Your Pi-hole web interface password.
 * **Connection Type**: Choose between **HTTPS** (recommended) or **HTTP**.
 
-![Screenshot Server Setup](screenshots/new_server.jpg)
-
 ### Connection Test & Saving
 * **Check Connection**: Performs a test request to validate reachability and password correctness.
 * **Save (Disk Icon)**: Commits the data to encrypted storage. Upon initial setup, this server is automatically marked as the active instance.
 
+![Screenshot Server Setup](screenshots/new_server.jpg)
 ---
 
 ## 📊 3. Dashboard
