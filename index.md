@@ -19,5 +19,5 @@ Please select your language / Bitte wählen Sie Ihre Sprache:
 
 ### App Information
 * **Developer:** Christian Jurtz (`de.mountainfields.piholemonitor`)
-* **Contact:** support@mountainfields.de
+* **Contact:** mountainfields@jurtz.de
 * **Project Status:** Active
