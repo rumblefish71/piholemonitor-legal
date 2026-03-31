@@ -12,11 +12,6 @@ Bitte wählen Sie Ihre Sprache / Please select your language:
 * **[🇩🇪 Deutsch: Vollständiges Handbuch](manual_de.md)**
 
 ---
-
-## 🛠️ Quick Links
-* **[Server Setup (Nginx/SSL)](manual_de.md#konfiguration)**
-* **[Troubleshooting](manual_de.md#fehlerbehebung)**
-
 > _PiHoleMonitor kommuniziert direkt mit der Pi-hole API. Es werden keine Daten auf externen Servern gespeichert._
 > _PiHoleMonitor communicates directly with the Pi-hole API. No data is stored on external servers._
 
