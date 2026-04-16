@@ -40,6 +40,7 @@ Pour utiliser l'application, vous devez enregistrer votre instance Pi-hole (supp
 * **Vérifier la connexion** : Effectue une requête de test pour valider l'accessibilité et l'exactitude du mot de passe.
 * **Enregistrer (Icône Disquette)** : Enregistre les données dans le stockage chiffré. Lors de la configuration initiale, ce serveur est automatiquement marqué comme instance active.
 
+![Screenshot Server Setup](screenshots/new_server.jpg)
 ---
 
 ## 📊 3. Tableau de bord
