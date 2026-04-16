@@ -40,6 +40,7 @@ Aby korzystać z aplikacji, musisz zarejestrować swoją instancję Pi-hole (obs
 * **Sprawdź połączenie**: Wykonuje zapytanie testowe w celu sprawdzenia dostępności i poprawności hasła.
 * **Zapisz (Ikona dyskietki)**: Zapisuje dane w zaszyfrowanej pamięci. Przy pierwszej konfiguracji serwer ten zostanie automatycznie ustawiony jako aktywna instancja.
 
+![Screenshot Server Setup](screenshots/new_server.jpg)
 ---
 
 ## 📊 3. Pulpit nawigacyjny (Dashboard)
