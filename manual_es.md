@@ -40,6 +40,7 @@ Para utilizar la aplicación, debe registrar su instancia de Pi-hole (compatible
 * **Comprobar conexión**: Realiza una solicitud de prueba para validar la accesibilidad y la corrección de la contraseña.
 * **Guardar (Icono de disco)**: Guarda los datos en el almacenamiento cifrado. En la configuración inicial, este servidor se marca automáticamente como la instancia activa.
 
+![Screenshot Server Setup](screenshots/new_server.jpg)
 ---
 
 ## 📊 3. Panel de control (Dashboard)
