@@ -40,6 +40,7 @@ Per utilizzare l'app, devi registrare la tua istanza Pi-hole (supporta API v6+).
 * **Verifica Connessione**: Esegue una richiesta di test per validare la raggiungibilità e la correttezza della password.
 * **Salva (Icona Disco)**: Memorizza i dati nell'archivio crittografato. Alla prima configurazione, questo server viene contrassegnato automaticamente come istanza attiva.
 
+![Screenshot Server Setup](screenshots/new_server.jpg)
 ---
 
 ## 📊 3. Dashboard
