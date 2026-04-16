@@ -11,8 +11,8 @@ Please select your preferred language. We have provided localized versions to en
 
 | Language | Document |
 |:--- |:--- |
-| 🇬🇧 **English** | [Privacy Policy](privacy_en.md) |
 | 🇩🇪 **Deutsch** | [Datenschutzerklärung](privacy_de.md) |
+| 🇬🇧 **English** | [Privacy Policy](privacy_en.md) |
 | 🇪🇸 **Español** | [Política de Privacidad](privacy_es.md) |
 | 🇫🇷 **Français** | [Politique de Confidentialité](privacy_fr.md) |
 | 🇮🇹 **Italiano** | [Informativa sulla Privacy](privacy_it.md) |
