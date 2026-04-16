@@ -40,6 +40,7 @@ Para utilizar a aplicação, deve registar a sua instância Pi-hole (suporte API
 * **Verificar Ligação**: Realiza um pedido de teste para validar a acessibilidade e a correção da palavra-passe.
 * **Guardar (Ícone de Disco)**: Grava os dados no armazenamento encriptado. Na configuração inicial, este servidor é automaticamente marcado como a instância ativa.
 
+![Screenshot Server Setup](screenshots/new_server.jpg)
 ---
 
 ## 📊 3. Dashboard
