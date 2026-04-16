@@ -33,7 +33,7 @@ Please select your preferred language for the full manual:
 * **Developer**: Christian Jurtz
 * **Package ID**: `de.mountainfields.piholemonitor`
 * **Technology Stack**:
-    * **Language**: Kotlin 2.3.20 
+    * **Language**: Kotlin 2.3
     * **UI**: Jetpack Compose & Material 3 
     * **Architecture**: MVVM / Clean Architecture 
     * **Dependency Injection**: Hilt 
