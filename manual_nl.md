@@ -40,7 +40,7 @@ Om de app te gebruiken, moet u uw Pi-hole instantie registreren (API v6+ onderst
 * **Verbinding controleren**: Voert een testverzoek uit om de bereikbaarheid en de juistheid van het wachtwoord te valideren.
 * **Opslaan (Schijf-icoon)**: Slaat de gegevens op in de versleutelde opslag. Bij de eerste installatie wordt deze server automatisch als de actieve instantie gemarkeerd.
 
-![Screenshot Server Setup](screenshots/new_server.jpg)
+![Screenshot Server Setup](screenshots/new_server_nl.jpg)
 ---
 
 ## 📊 3. Dashboard
