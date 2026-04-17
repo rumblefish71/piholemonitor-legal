@@ -1,4 +1,4 @@
-# 🛡️(screenshots/AppIcon.jpg) PiHoleMonitor – Legal Resources
+# 🛡️ PiHoleMonitor – Legal Resources
 
 Welcome to the official legal hub for the **PiHoleMonitor** Android App.  
 Transparenz ist das Fundament von Vertrauen. Hier findest du alle rechtlichen Informationen rund um den Schutz deiner Daten.
