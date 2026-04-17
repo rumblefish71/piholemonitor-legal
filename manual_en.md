@@ -40,7 +40,7 @@ To use the app, you must register your Pi-hole instance (API v6+ supported).
 * **Check Connection**: Performs a test request to validate reachability and password correctness.
 * **Save (Disk Icon)**: Commits the data to encrypted storage. Upon initial setup, this server is automatically marked as the active instance.
 
-![Screenshot Server Setup](screenshots/new_server.jpg)
+![Screenshot Server Setup](screenshots/new_server_en.jpg)
 ---
 
 ## 📊 3. Dashboard
